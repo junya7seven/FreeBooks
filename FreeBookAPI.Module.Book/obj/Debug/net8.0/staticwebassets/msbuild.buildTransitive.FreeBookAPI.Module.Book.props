@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FreeBookAPI.Module.Book.props" />
+</Project>

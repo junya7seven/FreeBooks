@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YW1gIz+mB6rbM1WCZe6I3oJAExDOrZ6WtozTK2ZSyqo=",
+  "Source": "FreeBookAPI.Module.Book",
+  "BasePath": "_content/FreeBookAPI.Module.Book",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

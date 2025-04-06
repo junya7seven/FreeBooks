@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "FreeBookAPI.Module.Book.Controllers.BookController",
+    "Method": "CreateBook",
+    "RelativePath": "Book/CreateBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pdfFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FreeBookAPI.Module.Book.Controllers.BookController",
+    "Method": "DeleteBook",
+    "RelativePath": "Book/DeleteBook/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FreeBookAPI.Module.Book.Controllers.BookController",
+    "Method": "DeleteBookSoft",
+    "RelativePath": "Book/DeleteBookSoft/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FreeBookAPI.Module.Book.Controllers.BookController",
+    "Method": "DownloadBook",
+    "RelativePath": "Book/DownloadBook/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FreeBookAPI.Module.Book.Controllers.BookController",
+    "Method": "GetBooks",
+    "RelativePath": "Book/GetBooks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

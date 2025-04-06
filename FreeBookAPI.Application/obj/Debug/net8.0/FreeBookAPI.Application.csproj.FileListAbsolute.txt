@@ -1,0 +1,17 @@
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Application.deps.json
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Application.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Application.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Interfaces.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Models.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Interfaces.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\bin\Debug\net8.0\FreeBookAPI.Models.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.csproj.AssemblyReference.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.AssemblyInfoInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.AssemblyInfo.cs
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBook.DCF46529.Up2Date
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\refint\FreeBookAPI.Application.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\FreeBookAPI.Application.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Application\obj\Debug\net8.0\ref\FreeBookAPI.Application.dll

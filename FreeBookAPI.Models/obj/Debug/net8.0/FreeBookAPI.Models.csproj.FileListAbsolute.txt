@@ -1,0 +1,11 @@
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\bin\Debug\net8.0\FreeBookAPI.Models.deps.json
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\bin\Debug\net8.0\FreeBookAPI.Models.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\bin\Debug\net8.0\FreeBookAPI.Models.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.AssemblyInfoInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.AssemblyInfo.cs
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.csproj.CoreCompileInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\refint\FreeBookAPI.Models.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\FreeBookAPI.Models.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Models\obj\Debug\net8.0\ref\FreeBookAPI.Models.dll

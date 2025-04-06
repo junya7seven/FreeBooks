@@ -1,0 +1,17 @@
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.deps.json
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.runtimeconfig.json
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Models.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\bin\Debug\net8.0\FreeBookAPI.Models.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBook.AE7F5681.Up2Date
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\refint\FreeBookAPI.Infrastructure.Persistence.dll
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.pdb
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\FreeBookAPI.Infrastructure.Persistence.genruntimeconfig.cache
+C:\Users\souah\source\repos\FreeBookAPI.Module.Book\FreeBookAPI.Infrastructure.Persistence\obj\Debug\net8.0\ref\FreeBookAPI.Infrastructure.Persistence.dll
