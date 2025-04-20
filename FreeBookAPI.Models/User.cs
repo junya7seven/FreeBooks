@@ -8,9 +8,12 @@ namespace FreeBookAPI.Models
 {
     public class User
     {
-        public long UserId { get; set; }
-        public string UserName { get; set; }
-        public string AboutUser { get; set; }
-        public string PhoneNumber { get; set; }
+        public Guid UserId { get; set; }
+        public long TelegramUserId { get; set; }
+        public string Role { get; set; }
+
+        public ICollection<BookCurrentPage> BookCurrentPages { get; set; } = new List<BookCurrentPage>();
+        public ICollection<FavoriteBook> FavoriteBooks { get; set; } = new List<FavoriteBook>();
+
     }
 }

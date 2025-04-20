@@ -20,6 +20,7 @@ namespace FreeBookAPI.Application.Service
         private readonly IStorageService _storageService;
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
+        private IUserRepository _userRepository;
         private readonly string BookPath;
 
 
@@ -28,25 +29,27 @@ namespace FreeBookAPI.Application.Service
             //IBookFileRepository bookFileRepository, 
             IStorageService storageService,
             IMapper mapper,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            IUserRepository userRepository)
         {
             _bookCommand = bookCommand;
             _bookQuery = bookQuery;
             //_bookFileRepository = bookFileRepository;
             _storageService = storageService;
             _mapper = mapper;
+            _userRepository = userRepository;
         }
 
         /// <summary>
         /// Получить модель книг книга + bookImage
         /// </summary>
         /// <param name="page">текущая страница</param>
-        /// <param name="pageSize">размер моделей на страницы</param>
+        /// <param name="pageSize">размер моделей на странице</param>
         /// <returns>Коллекция bookDTO или null</returns>
-        public async Task<IEnumerable<BookDTO?>> GetBookCovers(int page, int pageSize)
+        public async Task<(IEnumerable<BookDTO> books, int totalItems)> GetBookCovers(int page, int pageSize, string? search)
         {
-            var (books,pages) = await _bookQuery.GetPageBooks(page, pageSize);
-            return _mapper.Map<IEnumerable<BookDTO>>(books);
+            var (books, totalItems) = await _bookQuery.GetPageBooks(page, pageSize, search);
+            return (_mapper.Map<IEnumerable<BookDTO>>(books), totalItems);
         }
 
         /// <summary>
@@ -107,13 +110,21 @@ namespace FreeBookAPI.Application.Service
         /// <returns>файл</returns>
         public async Task<BookFile> DownloadBook(Guid id)
         {
-            var existBook = await _bookQuery.GetBookById(id);
-            if(existBook is not null)
+            try
             {
-                var bookPdfId = existBook.BookPDF.BookPDFId;
-                return await _storageService.DownloadFile(bookPdfId);
+                var existBook = await _bookQuery.GetBookById(id);
+                if (existBook is not null)
+                {
+                    var bookPdfId = existBook.BookPDF.BookPDFId;
+                    return await _storageService.DownloadFile(bookPdfId);
+                }
+                throw new ArgumentException("Такой книги не существует");
             }
-            throw new ArgumentException("Такой книги не существует");
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         /// <summary>
@@ -125,7 +136,8 @@ namespace FreeBookAPI.Application.Service
         {
             try
             {
-                await _bookCommand.RemoveBookSoft(id);
+                var existBook = await _bookQuery.GetBookById(id);
+                await _bookCommand.RemoveBookSoft(existBook);
             }
             catch (Exception ex)
             {
@@ -163,11 +175,37 @@ namespace FreeBookAPI.Application.Service
 
                 await Task.WhenAll(deleteFiles);
 
-                await _bookCommand.RemoveBook(id);
+                await _bookCommand.RemoveBook(existBook);
             }
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        public async Task<(IEnumerable<BookDTO> books, int totalItems)> GetFavoriteBooks(long teleramId, int currentPage, int pageSize)
+        {
+            try
+            {
+                var user = await _userRepository.CheckExistUser(teleramId);
+                if (user is not null)
+                {
+                    var favoriteBooks = await _userRepository.GetFavoriteBooks(user.UserId);
+
+                    var bookIds = favoriteBooks
+                        .Where(b => b.BookId != Guid.Empty)
+                        .Select(b => b.BookId)
+                        .ToArray();
+
+                    var (books, totalItems) = await _bookQuery.GetAllBooksById(currentPage, pageSize, bookIds);
+
+                    return (_mapper.Map<IEnumerable<BookDTO>>(books),totalItems);
+                }
+                throw new ArgumentException("Пользователь не найден");
+            }
+            catch (Exception)
+            {
+                throw new Exception("Произошла ошибка");
             }
         }
     }

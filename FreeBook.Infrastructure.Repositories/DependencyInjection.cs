@@ -22,7 +22,7 @@ namespace FreeBook.Infrastructure.Repositories
             services.AddScoped<IStorageService, StorageService>(); 
             services.AddScoped<IBookQuery, BookQuery>();
             services.AddScoped<IBookCommand, BookCommand>();
-
+            services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
     }

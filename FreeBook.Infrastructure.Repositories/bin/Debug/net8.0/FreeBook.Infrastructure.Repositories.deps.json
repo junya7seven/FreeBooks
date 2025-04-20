@@ -757,7 +757,8 @@
           "AutoMapper": "14.0.0",
           "FreeBookAPI.Interfaces": "1.0.0",
           "FreeBookAPI.Models": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.3"
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.3",
+          "System.IdentityModel.Tokens.Jwt": "6.35.0"
         },
         "runtime": {
           "FreeBookAPI.Application.dll": {

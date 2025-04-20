@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj": {}
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj": {
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj",
         "projectName": "FreeBookAPI.Application",
-        "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\souah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\obj\\",
+        "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\junya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\souah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\junya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj"
+              "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj"
               },
-              "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
-                "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj"
+              "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj"
               }
             }
           }
@@ -65,6 +64,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
             }
           },
           "imports": [
@@ -83,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj": {
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj",
+        "projectUniqueName": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj",
         "projectName": "FreeBookAPI.Infrastructure.StorageAPI",
-        "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj",
-        "packagesPath": "C:\\Users\\souah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\obj\\",
+        "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj",
+        "packagesPath": "C:\\Users\\junya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Infrastructure.StorageAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\souah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\junya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,15 +112,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj"
+              "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\FreeBookAPI.Application.csproj"
               }
             }
           }
@@ -167,24 +169,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj": {
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj",
         "projectName": "FreeBookAPI.Interfaces",
-        "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\souah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\junya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\souah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\junya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,15 +195,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
-                "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj"
+              "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj"
               }
             }
           }
@@ -237,24 +238,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
+        "projectUniqueName": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
         "projectName": "FreeBookAPI.Models",
-        "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
-        "packagesPath": "C:\\Users\\souah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\obj\\",
+        "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
+        "packagesPath": "C:\\Users\\junya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\souah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\junya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -263,7 +264,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -303,7 +303,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

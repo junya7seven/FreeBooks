@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {}
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
+    "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
+        "projectUniqueName": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
         "projectName": "FreeBookAPI.Models",
-        "projectPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
-        "packagesPath": "C:\\Users\\souah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\obj\\",
+        "projectPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\FreeBookAPI.Models.csproj",
+        "packagesPath": "C:\\Users\\junya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\souah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\junya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

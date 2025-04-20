@@ -6,8 +6,8 @@ namespace FreeBookAPI.Interfaces
     {
         Task<bool> UpdateBook(Book book);
         Task<Book> CreateBook(Book book);
-        Task<bool> RemoveBookSoft(Guid id);
-        Task<bool> RemoveBook(Guid id);
+        Task<bool> RemoveBookSoft(Book book);
+        Task<bool> RemoveBook(Book book);
 
     }
 }

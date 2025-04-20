@@ -19,12 +19,12 @@ namespace FreeBook.Infrastructure.Repositories.Service
             _context = context;
         }
 
-        public async Task<Book?> GetBookById(Guid id)
+        public async Task<Book> GetBookById(Guid id)
         {
             return await _context.Books
                 .Include(b => b.BookImage)
                 .Include(b => b.BookPDF)
-                .FirstOrDefaultAsync(x => x.BookId == id);
+                .FirstOrDefaultAsync(b => b.BookId == id);
         }
 
         public async Task<IEnumerable<Book>?> GetBookByAuthor(string authorName)
@@ -32,20 +32,37 @@ namespace FreeBook.Infrastructure.Repositories.Service
             var t = new List<Book>();
             return t;
         }
-        public async Task<(IEnumerable<Book>, int)> GetPageBooks(int currentPage, int pageSize)
+        public async Task<(IEnumerable<Book> books, int totalItems)> GetPageBooks(int currentPage, int pageSize, string? search)
         {
-            var books = await _context.Books
-                .Where(b => b.isRevoke == false)
+            var query = _context.Books
+                .Where(b => !b.isRevoke && (string.IsNullOrEmpty(search) || b.Category.Contains(search)));
+
+            int totalItems = await query.CountAsync();
+
+            var books = await query
                 .Include(b => b.BookPDF)
                 .Include(b => b.BookImage)
                 .Skip((currentPage - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
-            int countPages = await _context.Books
-                .Where(b => b.isRevoke == false)
-                .Include(b => b.BookImage)
-                .CountAsync();
-            return (books, countPages / pageSize);
+
+            return (books, totalItems);
         }
+        public async Task<(IEnumerable<Book> books, int totalItems)> GetAllBooksById(int currentPage, int pageSize, params Guid[] bookId)
+        {
+            var query = _context.Books
+                .Where(b => bookId.Contains(b.BookId));
+
+            int totalItems = await query.CountAsync();
+
+            var books = await query
+                .Include(b => b.BookPDF)
+                .Include(b => b.BookImage)
+                .Skip((currentPage - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+            return (books, totalItems);
+        }
+
     }
 }

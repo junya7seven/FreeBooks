@@ -34,37 +34,29 @@ namespace FreeBook.Infrastructure.Repositories.Service
 
             existBook.AuthorName = book.AuthorName ?? existBook.AuthorName;
             existBook.Title = book.Title ?? existBook.Title;
+            existBook.Description = book.Description ?? existBook.Description;
             existBook.Category = book.Category ?? book.Category;
             return await _context.SaveChangesAsync() > 0;
         }
 
         public async Task<Book> CreateBook(Book book)
         {
+            book.DateCreate = DateTime.Now;
+            book.Category = book.Category.ToLower();
             await _context.Books.AddAsync(book);
             await _context.SaveChangesAsync();
             return book;
         }
 
-        public async Task<bool> RemoveBookSoft(Guid id)
+        public async Task<bool> RemoveBookSoft(Book book)
         {
-            var existBook = await CheckExistBook(id);
-            if (existBook is null)
-            {
-                throw new ArgumentException("Такой книги не существует");
-            }
-            existBook.isRevoke = true;
+            book.isRevoke = true;
             return await _context.SaveChangesAsync() > 0;
         }
 
-        public async Task<bool> RemoveBook(Guid id)
+        public async Task<bool> RemoveBook(Book book)
         {
-            var existBook = await CheckExistBook(id);
-            if (existBook is null)
-            {
-                throw new ArgumentException("Такой книги не существует");
-            }
-
-            _context.Books.Remove(existBook);
+            _context.Books.Remove(book);
             return await _context.SaveChangesAsync() > 0;
         }
     }

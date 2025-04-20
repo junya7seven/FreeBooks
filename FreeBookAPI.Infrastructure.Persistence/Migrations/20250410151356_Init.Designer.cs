@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FreeBookAPI.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250403174003_RemoveFilesId")]
-    partial class RemoveFilesId
+    [Migration("20250410151356_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,22 +32,28 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AuthorName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("BookImageId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BookPDFId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SuggestedBook")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("isRevoke")
@@ -56,6 +62,28 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                     b.HasKey("BookId");
 
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.BookCurrentPage", b =>
+                {
+                    b.Property<Guid>("BookCurrentPageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CurrentPage")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("BookCurrentPageId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CurrentPages");
                 });
 
             modelBuilder.Entity("FreeBookAPI.Models.BookImage", b =>
@@ -99,6 +127,31 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                     b.ToTable("BookPDFs");
                 });
 
+            modelBuilder.Entity("FreeBookAPI.Models.User", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<long>("TelegramUserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.BookCurrentPage", b =>
+                {
+                    b.HasOne("FreeBookAPI.Models.User", "User")
+                        .WithMany("BookCurrentPages")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FreeBookAPI.Models.BookImage", b =>
                 {
                     b.HasOne("FreeBookAPI.Models.Book", "Book")
@@ -128,6 +181,11 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
 
                     b.Navigation("BookPDF")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.User", b =>
+                {
+                    b.Navigation("BookCurrentPages");
                 });
 #pragma warning restore 612, 618
         }

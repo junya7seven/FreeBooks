@@ -1,85 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\",
+  "WorkspaceRootPath": "C:\\Users\\junya\\source\\repos\\FreeBooks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.module.book\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|solutionrelative:freebookapi.module.book\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FreeBooksDb/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.application\\authservice\\customauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\authservice\\customauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|solutionrelative:freebookapi.models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.application\\authservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\authservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.module.book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.module.book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|solutionrelative:freebookapi.module.book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.module.book\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebook.infrastructure.repositories\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|solutionrelative:freebook.infrastructure.repositories\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.application\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebook.infrastructure.repositories\\freebook.infrastructure.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|solutionrelative:freebook.infrastructure.repositories\\freebook.infrastructure.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.module.book\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|solutionrelative:freebookapi.module.book\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebook.infrastructure.repositories\\service\\bookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|solutionrelative:freebook.infrastructure.repositories\\service\\bookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.module.book\\middleware\\customexeptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|solutionrelative:freebookapi.module.book\\middleware\\customexeptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EC68F7-8181-4409-A61B-45CFDA836E4A}|FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.infrastructure.storageapi\\ensuresuccessstatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EC68F7-8181-4409-A61B-45CFDA836E4A}|FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj|solutionrelative:freebookapi.infrastructure.storageapi\\ensuresuccessstatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebook.infrastructure.repositories\\service\\bookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|solutionrelative:freebook.infrastructure.repositories\\service\\bookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EC68F7-8181-4409-A61B-45CFDA836E4A}|FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.infrastructure.storageapi\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EC68F7-8181-4409-A61B-45CFDA836E4A}|FreeBookAPI.Infrastructure.StorageAPI\\FreeBookAPI.Infrastructure.StorageAPI.csproj|solutionrelative:freebookapi.infrastructure.storageapi\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.models\\bookimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|solutionrelative:freebookapi.models\\bookimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.models\\bookpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|solutionrelative:freebookapi.models\\bookpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.application\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.application\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebook.infrastructure.repositories\\service\\bookfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F947FF-2DDA-4FF1-872D-2E1B93BE7F29}|FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj|solutionrelative:freebook.infrastructure.repositories\\service\\bookfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992A6905-22A1-44AE-B9BD-20C6DE8C4C43}|FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.interfaces\\ibookfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992A6905-22A1-44AE-B9BD-20C6DE8C4C43}|FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj|solutionrelative:freebookapi.interfaces\\ibookfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992A6905-22A1-44AE-B9BD-20C6DE8C4C43}|FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.interfaces\\ibookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992A6905-22A1-44AE-B9BD-20C6DE8C4C43}|FreeBookAPI.Interfaces\\FreeBookAPI.Interfaces.csproj|solutionrelative:freebookapi.interfaces\\ibookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|solutionrelative:freebookapi.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.application\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|c:\\users\\souah\\source\\repos\\freebookapi.module.book\\freebookapi.application\\dto\\bookfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081F937E-D8A2-4D6E-BF0A-209066DEF56A}|FreeBookAPI.Application\\FreeBookAPI.Application.csproj|solutionrelative:freebookapi.application\\dto\\bookfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.module.book\\models\\pagedbooksresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0726682E-8B2E-4C13-A492-01078913A46C}|FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book.csproj|solutionrelative:freebookapi.module.book\\models\\pagedbooksresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|c:\\users\\junya\\source\\repos\\freebooks\\freebookapi.models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF97847E-58CC-41E9-93A7-CFD3B4ABE04D}|FreeBookAPI.Models\\FreeBookAPI.Models.csproj|solutionrelative:freebookapi.models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,257 +62,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Program.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Program.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Program.cs",
-              "RelativeToolTip": "FreeBookAPI.Module.Book\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:04:33.995Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
-              "RelativeToolTip": "FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:04:30.701Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Service\\BookService.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Application\\Service\\BookService.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Service\\BookService.cs",
-              "RelativeToolTip": "FreeBookAPI.Application\\Service\\BookService.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAiwIMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:06:27.814Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BookCommand.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookCommand.cs",
-              "RelativeDocumentMoniker": "FreeBook.Infrastructure.Repositories\\Service\\BookCommand.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookCommand.cs",
-              "RelativeToolTip": "FreeBook.Infrastructure.Repositories\\Service\\BookCommand.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwCgAAAA1AAAAAAAAAA==",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Application\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\Models\\LoginModel.cs",
+              "RelativeToolTip": "FreeBookAPI.Application\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:46:06.91Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookQuery.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookQuery.cs",
-              "RelativeDocumentMoniker": "FreeBook.Infrastructure.Repositories\\Service\\BookQuery.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookQuery.cs",
-              "RelativeToolTip": "FreeBook.Infrastructure.Repositories\\Service\\BookQuery.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:48:42.298Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StorageService.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\StorageService.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Infrastructure.StorageAPI\\StorageService.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\StorageService.cs",
-              "RelativeToolTip": "FreeBookAPI.Infrastructure.StorageAPI\\StorageService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAjwHUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:08:17.847Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Books [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FreeBooksDb/True/SqlTable/dbo.Books.sql",
-              "ToolTip": "dbo.Books [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-06T10:02:25.321Z",
+              "WhenOpened": "2025-04-19T22:34:17.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CustomExeptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Middleware\\CustomExeptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Middleware\\CustomExeptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Module.Book\\Middleware\\CustomExeptionHandlerMiddleware.cs",
-              "RelativeToolTip": "FreeBookAPI.Module.Book\\Middleware\\CustomExeptionHandlerMiddleware.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wFIAAAA0AAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "FreeBookAPI.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:33:25.624Z",
+              "WhenOpened": "2025-04-19T22:32:22.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FreeBook.Infrastructure.Repositories",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj",
+              "RelativeDocumentMoniker": "FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj",
+              "RelativeToolTip": "FreeBook.Infrastructure.Repositories\\FreeBook.Infrastructure.Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T22:29:10.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FreeBookAPI.Module.Book\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:20:10.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
+              "RelativeToolTip": "FreeBookAPI.Module.Book\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:19:39.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBook.Infrastructure.Repositories\\Service\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FreeBook.Infrastructure.Repositories\\Service\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBook.Infrastructure.Repositories\\Service\\UserRepository.cs",
+              "RelativeToolTip": "FreeBook.Infrastructure.Repositories\\Service\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:16:19.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "BookImage.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\BookImage.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Models\\BookImage.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\BookImage.cs",
-              "RelativeToolTip": "FreeBookAPI.Models\\BookImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Application\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\Service\\UserService.cs",
+              "RelativeToolTip": "FreeBookAPI.Application\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:26:17.101Z"
+              "WhenOpened": "2025-04-19T22:10:11.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookPDF.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\BookPDF.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Models\\BookPDF.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\BookPDF.cs",
-              "RelativeToolTip": "FreeBookAPI.Models\\BookPDF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:26:11.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BookFileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookFileRepository.cs",
-              "RelativeDocumentMoniker": "FreeBook.Infrastructure.Repositories\\Service\\BookFileRepository.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBook.Infrastructure.Repositories\\Service\\BookFileRepository.cs",
-              "RelativeToolTip": "FreeBook.Infrastructure.Repositories\\Service\\BookFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:37:27.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IBookFileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\IBookFileRepository.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Interfaces\\IBookFileRepository.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\IBookFileRepository.cs",
-              "RelativeToolTip": "FreeBookAPI.Interfaces\\IBookFileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:10:46.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IBookQuery.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\IBookQuery.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Interfaces\\IBookQuery.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Interfaces\\IBookQuery.cs",
-              "RelativeToolTip": "FreeBookAPI.Interfaces\\IBookQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:10:45.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\User.cs",
               "RelativeDocumentMoniker": "FreeBookAPI.Models\\User.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\User.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\User.cs",
               "RelativeToolTip": "FreeBookAPI.Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:07:16.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnsureSuccessStatusCode.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\EnsureSuccessStatusCode.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Infrastructure.StorageAPI\\EnsureSuccessStatusCode.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Infrastructure.StorageAPI\\EnsureSuccessStatusCode.cs",
-              "RelativeToolTip": "FreeBookAPI.Infrastructure.StorageAPI\\EnsureSuccessStatusCode.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwBkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:02:26.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BookProfile.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\BookProfile.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Application\\BookProfile.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\BookProfile.cs",
-              "RelativeToolTip": "FreeBookAPI.Application\\BookProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:53:33.291Z"
+              "WhenOpened": "2025-04-19T22:09:50.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\Book.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Models\\Book.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Models\\Book.cs",
-              "RelativeToolTip": "FreeBookAPI.Models\\Book.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAlwBYAAAAtAAAAAAAAAA==",
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\AuthService\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Application\\AuthService\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\AuthService\\JwtTokenService.cs",
+              "RelativeToolTip": "FreeBookAPI.Application\\AuthService\\JwtTokenService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:34:42.169Z",
+              "WhenOpened": "2025-04-19T22:11:22.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\AuthService\\CustomAuthService.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Application\\AuthService\\CustomAuthService.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Application\\AuthService\\CustomAuthService.cs",
+              "RelativeToolTip": "FreeBookAPI.Application\\AuthService\\CustomAuthService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:09:45.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Program.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Program.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Program.cs",
+              "RelativeToolTip": "FreeBookAPI.Module.Book\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T21:29:44.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Interfaces\\IStorageService.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Application\\Interfaces\\IStorageService.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Interfaces\\IStorageService.cs",
-              "RelativeToolTip": "FreeBookAPI.Application\\Interfaces\\IStorageService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\Book.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Models\\Book.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Models\\Book.cs",
+              "RelativeToolTip": "FreeBookAPI.Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:25:16.222Z"
+              "WhenOpened": "2025-04-19T21:18:01.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BookFile.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\DTO\\BookFile.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Application\\DTO\\BookFile.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\DTO\\BookFile.cs",
-              "RelativeToolTip": "FreeBookAPI.Application\\DTO\\BookFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "PagedBooksResult.cs",
+              "DocumentMoniker": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Models\\PagedBooksResult.cs",
+              "RelativeDocumentMoniker": "FreeBookAPI.Module.Book\\Models\\PagedBooksResult.cs",
+              "ToolTip": "C:\\Users\\junya\\source\\repos\\FreeBooks\\FreeBookAPI.Module.Book\\Models\\PagedBooksResult.cs",
+              "RelativeToolTip": "FreeBookAPI.Module.Book\\Models\\PagedBooksResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:23:16.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Interfaces\\IBookService.cs",
-              "RelativeDocumentMoniker": "FreeBookAPI.Application\\Interfaces\\IBookService.cs",
-              "ToolTip": "C:\\Users\\souah\\source\\repos\\FreeBookAPI.Module.Book\\FreeBookAPI.Application\\Interfaces\\IBookService.cs",
-              "RelativeToolTip": "FreeBookAPI.Application\\Interfaces\\IBookService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T17:20:45.656Z"
+              "WhenOpened": "2025-04-19T21:17:14.606Z",
+              "EditorCaption": ""
             }
           ]
         }

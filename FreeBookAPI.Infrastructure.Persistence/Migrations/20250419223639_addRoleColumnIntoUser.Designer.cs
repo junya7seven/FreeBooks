@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FreeBookAPI.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250404212839_AddFilesId")]
-    partial class AddFilesId
+    [Migration("20250419223639_addRoleColumnIntoUser")]
+    partial class addRoleColumnIntoUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,7 +32,6 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AuthorName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("BookImageId")
@@ -42,18 +41,19 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SuggestedBook")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("isRevoke")
@@ -62,6 +62,28 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                     b.HasKey("BookId");
 
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.BookCurrentPage", b =>
+                {
+                    b.Property<Guid>("BookCurrentPageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CurrentPage")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("BookCurrentPageId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CurrentPages");
                 });
 
             modelBuilder.Entity("FreeBookAPI.Models.BookImage", b =>
@@ -105,6 +127,54 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                     b.ToTable("BookPDFs");
                 });
 
+            modelBuilder.Entity("FreeBookAPI.Models.FavoriteBook", b =>
+                {
+                    b.Property<Guid>("FavoriteBookId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("FavoriteBookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("FavoriteBooks");
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.User", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("TelegramUserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.BookCurrentPage", b =>
+                {
+                    b.HasOne("FreeBookAPI.Models.User", "User")
+                        .WithMany("BookCurrentPages")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FreeBookAPI.Models.BookImage", b =>
                 {
                     b.HasOne("FreeBookAPI.Models.Book", "Book")
@@ -127,6 +197,17 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
                     b.Navigation("Book");
                 });
 
+            modelBuilder.Entity("FreeBookAPI.Models.FavoriteBook", b =>
+                {
+                    b.HasOne("FreeBookAPI.Models.User", "User")
+                        .WithMany("FavoriteBooks")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FreeBookAPI.Models.Book", b =>
                 {
                     b.Navigation("BookImage")
@@ -134,6 +215,13 @@ namespace FreeBookAPI.Infrastructure.Persistence.Migrations
 
                     b.Navigation("BookPDF")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("FreeBookAPI.Models.User", b =>
+                {
+                    b.Navigation("BookCurrentPages");
+
+                    b.Navigation("FavoriteBooks");
                 });
 #pragma warning restore 612, 618
         }

@@ -14,6 +14,7 @@ namespace FreeBookAPI.Application
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IBookService, BookService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddAutoMapper(typeof(BookProfile));
 
             return services;

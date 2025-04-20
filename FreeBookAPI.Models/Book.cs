@@ -12,9 +12,10 @@ namespace FreeBookAPI.Models
     public class Book 
     {
         public Guid BookId { get; set; }
-        public string Category { get; set; } = "All";
-        public string Title { get; set; } = "No Content";
-        public string AuthorName { get; set; } = "Unknown author";
+        public string? Category { get; set; } = "All";
+        public string? Title { get; set; } = "No Content";
+        public string? Description { get; set; } = "No Content";
+        public string? AuthorName { get; set; } = "Unknown author";
         public string SuggestedBook { get; set; } = "Admin";
         public bool isRevoke { get; set; } = false;
         public DateTime DateCreate { get; set; } = DateTime.Now;

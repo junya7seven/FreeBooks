@@ -1,70 +1,58 @@
 using FreeBookAPI.Application.DTO;
 using FreeBookAPI.Application.Interfaces;
 using FreeBookAPI.Infrastructure.StorageAPI;
+using FreeBookAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.IO;
+using System.Runtime.CompilerServices;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace FreeBookAPI.Module.Book.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class BookController : ControllerBase
 {
     private readonly IBookService _service;
-    public BookController(IBookService service)
+    private readonly IUserService _userService;
+    public BookController(IBookService service, IUserService userService)
     {
         _service = service;
+        _userService = userService;
     }
-
     [HttpPost("CreateBook")]
-    public async Task<IActionResult> CreateBook(IFormFile pdfFile)
+    public async Task<IActionResult> CreateBook(BookCreate bookCreate)
     {
         try
         {
-            //var imageMemoryStream = new MemoryStream();
-            var pdfMemoryStream = new MemoryStream();
-
-            //await imageFile.CopyToAsync(imageMemoryStream);
-            await pdfFile.CopyToAsync(pdfMemoryStream);
-
-            var image = new BookFile
+            if(bookCreate == null)
             {
-                FileName = pdfFile.FileName,
-                Content = pdfMemoryStream.ToArray(),
-                ContentType = pdfFile.ContentType
-            };
+                return BadRequest("Нету данных для добавления книги");
+            }
+            var imageFile = bookCreate.Files.FirstOrDefault(f => f.ContentType.StartsWith("image/")) 
+                ?? throw new Exception("Не хватает image файла");
+            var pdfFile = bookCreate.Files.FirstOrDefault(f => f.ContentType == "application/pdf") 
+                ?? throw new ArgumentNullException("Не хватает pdf файла");
 
-            var pdf = new BookFile
+            if (imageFile == null || pdfFile == null)
             {
-                FileName = pdfFile.FileName,
-                Content = pdfMemoryStream.ToArray(),
-                ContentType = pdfFile.ContentType
-            };
+                return BadRequest("Необходимы и изображение, и PDF-файл.");
+            }
 
-            BookFile[] files = new BookFile[2];
-            files[0] = image;
-            files[1] = pdf;
+            await _service.CreateBook(bookCreate.BookDTO, new[] { imageFile, pdfFile });
 
-            var bookDto = new BookDTO
-            {
-                Category = "asdas",
-                AuthorName = "name",
-                Title = "asdas"
-            };
-
-            await _service.CreateBook(bookDto, files);
             return Created();
         }
         catch (Exception ex)
         {
             return BadRequest($"Произошла ошибка сервера - {ex.Message}");
         }
-
     }
 
-    [HttpPost("GetBooks")]
-    public async Task<IActionResult> GetBooks(int page, int pageSize)
+    [HttpGet("GetBooks")]
+    public async Task<IActionResult> GetBooks([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] string? search = null)
     {
         try
         {
@@ -72,14 +60,21 @@ public class BookController : ControllerBase
             {
                 return BadRequest("Текущая страница или размер страницы не может быть 0 или меньше");
             }
-            return Ok(await _service.GetBookCovers(page, pageSize));
+
+            var (books, totalItems) = await _service.GetBookCovers(page, pageSize, search);
+            var pagedBooksResult = new PagedBooksResult
+            {
+                Books = books,
+                TotalItems = totalItems
+            };
+
+            return Ok(pagedBooksResult);
         }
         catch (Exception ex)
         {
             return BadRequest($"Произошла ошибка сервера - {ex.Message}");
         }
     }
-
     [HttpGet("DownloadBook/{id:guid}")]
     public async Task<IActionResult> DownloadBook(Guid id)
     {
@@ -121,5 +116,119 @@ public class BookController : ControllerBase
             return BadRequest($"Произошла ошибка сервера - {ex.Message}");
         }
     }
+
+    [HttpPost("CreateUser/{id:long}")]
+    public async Task<IActionResult> CreateUser(long id)
+    {
+        try
+        {
+            var user = new User
+            {
+                TelegramUserId = id,
+            };
+            await _userService.CreateUser(user);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpGet("GetUser/{id:long}")]
+    public async Task<IActionResult> GetUser(long id)
+    {
+        try
+        {
+            return Ok(await _userService.GetUser(id));
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpPost("UpdateUserPage/{id:long}/{newPage:int}/{bookId:guid}")]
+    public async Task<IActionResult> UpdateUserPage(long id, int newPage, Guid bookId)
+    {
+        try
+        {
+            
+            await _userService.UpdateBookPageForUser(id,newPage,bookId);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpGet("GetCurrentBookPage/{id:long}/{bookId:guid}")]
+    public async Task<IActionResult> GetCurrentBookPage(long id, Guid bookId)
+    {
+        try
+        {
+            return Ok(await _userService.GetCurrentBookPage(id, bookId));
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpPost("AddFavoriteBook/{id:long}/{bookId:guid}")]
+    public async Task<IActionResult> AddFavoriteBook(long id, Guid bookId)
+    {
+        try
+        {
+            await _userService.AddFavoriteBook(id, bookId);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpGet("GetFavoriteBooks/{id:long}")]
+    public async Task<IActionResult> GetFavoriteBooks(long id)
+    {
+        try
+        {
+            return Ok(await _userService.GetFavoriteBooks(id));
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
+    [HttpGet("GetFavoriteBooksUser")]
+    public async Task<IActionResult> GetFavoriteBooksUser([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] long telegramId)
+    {
+        try
+        {
+            if (page <= 0 || pageSize <= 0)
+            {
+                return BadRequest("Текущая страница или размер страницы не может быть 0 или меньше");
+            }
+
+            var (books, totalItems) = await _service.GetFavoriteBooks(telegramId, page, pageSize);
+
+            var pagedBooksResult = new PagedBooksResult
+            {
+                Books = books,
+                TotalItems = totalItems
+            };
+
+            return Ok(pagedBooksResult);
+
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Произошла ошибка сервера - {ex.Message}");
+        }
+    }
+
 
 }
